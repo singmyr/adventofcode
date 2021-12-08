@@ -1,6 +1,5 @@
 const fs = require('fs');
 const nums = fs.readFileSync('input.txt').toString().split("\n");
-console.log(nums[0])
 
 let prev = null;
 let incs = 0;
